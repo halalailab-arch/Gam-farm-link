@@ -12,8 +12,6 @@ by the owner and now power the site:
 
 ## Still placeholder, search the HTML for `PLACEHOLDER` / `REPLACE`
 
-- `assets/img/ceo.svg`, monogram stand-in; replace with the CEO's official
-  portrait when available.
 - Homes-delivered statistic on the homepage (currently 5,000+).
 - Contact details: office addresses, phone numbers and email addresses are
   representative and must be confirmed by the company.
