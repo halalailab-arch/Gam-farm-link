@@ -235,7 +235,7 @@ h3 { font-size: 1.35rem; }
 .quote-mark { font-family: var(--font-display); font-size: 5rem; line-height: 0.6; color: var(--gold-500); }
 blockquote { font-family: var(--font-display); font-style: italic; font-weight: 500; font-size: clamp(1.4rem, 2.6vw, 2rem); color: var(--cream); line-height: 1.5; margin-top: 1.6rem; }
 .quote-attrib { margin-top: 1.8rem; display: flex; flex-direction: column; align-items: center; gap: 0.15rem; }
-.quote-attrib .avatar { width: 62px; height: 62px; border-radius: 50%; margin-bottom: 0.8rem; border: 2px solid var(--gold-500); }
+.quote-attrib .avatar { width: 62px; height: 62px; border-radius: 50%; margin-bottom: 0.8rem; border: 2px solid var(--gold-500); object-fit: cover; }
 .quote-attrib strong { color: var(--gold-300); font-size: 1.05rem; }
 .quote-attrib span { font-size: 0.85rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(248,245,238,0.6); }
 
