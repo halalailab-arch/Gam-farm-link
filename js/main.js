@@ -1,4 +1,4 @@
-/* TAF Africa Global — shared behavior */
+/* TAF Africa Global shared behavior */
 (function () {
   'use strict';
 
@@ -105,7 +105,7 @@
         return;
       }
       status.className = 'form-status ok';
-      status.textContent = 'Thank you — your enquiry has been received. Our team will reach out within one business day.';
+      status.textContent = 'Thank you, your enquiry has been received. Our team will get back to you within one business day.';
       form.reset();
     });
   }
