@@ -17,14 +17,14 @@
     toggle.addEventListener('click', function () {
       var open = links.classList.toggle('open');
       toggle.classList.toggle('open', open);
+      header.classList.toggle('menu-open', open);
       toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-      document.body.style.overflow = open ? 'hidden' : '';
     });
     links.querySelectorAll('a').forEach(function (a) {
       a.addEventListener('click', function () {
         links.classList.remove('open');
         toggle.classList.remove('open');
-        document.body.style.overflow = '';
+        header.classList.remove('menu-open');
       });
     });
   }
