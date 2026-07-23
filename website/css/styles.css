@@ -351,6 +351,9 @@ blockquote { font-family: var(--font-display); font-style: italic; font-weight: 
 }
 @media (max-width: 620px) {
   body { font-size: 15.5px; }
+  /* On small screens the year tag becomes a caption bar under the photo instead of covering it */
+  .split-media .float-tag { position: static; display: flex; align-items: baseline; gap: 0.7rem; border-radius: 0; padding: 0.75rem 1.1rem; backdrop-filter: none; }
+  .split-media .float-tag strong { font-size: 1.15rem; display: inline; }
   .project-grid, .services-grid, .values-grid, .country-list, .form-grid { grid-template-columns: 1fr; }
   .stats-grid { grid-template-columns: 1fr 1fr; }
   .hero .container { padding: 6.5rem 0 3rem; }
