@@ -134,12 +134,12 @@ h3 { font-size: 1.35rem; }
 
 /* ---------- Hero (home) ---------- */
 .hero {
-  position: relative; min-height: 92vh; display: flex; align-items: center;
+  position: relative; min-height: 84vh; display: flex; align-items: center;
   background: var(--green-950); overflow: hidden;
 }
 .hero-art { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center bottom; }
 .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(100deg, rgba(4, 31, 23, 0.88) 22%, rgba(4, 31, 23, 0.42) 60%, rgba(4, 31, 23, 0.15)); }
-.hero .container { position: relative; z-index: 2; padding: 9rem 0 6rem; }
+.hero .container { position: relative; z-index: 2; padding: 7.5rem 0 4rem; }
 .hero-kicker { display: inline-flex; align-items: center; gap: 0.7rem; padding: 0.5rem 1.1rem; border: 1px solid rgba(219, 184, 77, 0.5); border-radius: 999px; color: var(--gold-300); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 1.6rem; }
 .hero-kicker::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--gold-400); }
 .hero h1 { color: var(--cream); max-width: 15ch; }
@@ -353,6 +353,6 @@ blockquote { font-family: var(--font-display); font-style: italic; font-weight: 
   body { font-size: 15.5px; }
   .project-grid, .services-grid, .values-grid, .country-list, .form-grid { grid-template-columns: 1fr; }
   .stats-grid { grid-template-columns: 1fr 1fr; }
-  .hero .container { padding: 8rem 0 4.5rem; }
+  .hero .container { padding: 6.5rem 0 3rem; }
   .footer-top { grid-template-columns: 1fr; }
 }
