@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 525" preserveAspectRatio="xMidYMax slice">
+  <!-- REPLACE: real Brufut Gardens photograph -->
+  <defs>
+    <linearGradient id="bf-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05261D"/><stop offset="0.6" stop-color="#11503F"/><stop offset="1" stop-color="#C9A227" stop-opacity="0.45"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="525" fill="url(#bf-sky)"/>
+  <circle cx="640" cy="290" r="72" fill="#DBB84D" opacity="0.7"/>
+  <!-- garden villa -->
+  <g transform="translate(180,270)">
+    <rect x="0" y="60" width="300" height="150" fill="#05241A"/>
+    <path d="M-20 66 L150 -40 L320 66 Z" fill="#083527"/>
+    <rect x="130" y="120" width="46" height="90" rx="3" fill="#DBB84D" opacity="0.9"/>
+    <rect x="34" y="96" width="52" height="42" rx="3" fill="#E9D08A" opacity="0.9"/>
+    <rect x="216" y="96" width="52" height="42" rx="3" fill="#E9D08A" opacity="0.75"/>
+    <rect x="-26" y="150" width="70" height="60" fill="#062A1E"/>
+    <rect x="256" y="150" width="70" height="60" fill="#062A1E"/>
+  </g>
+  <rect x="0" y="480" width="800" height="45" fill="#03170F"/>
+  <!-- garden hedges + palms -->
+  <g>
+    <ellipse cx="110" cy="478" rx="60" ry="20" fill="#0E4636"/>
+    <ellipse cx="690" cy="478" rx="66" ry="22" fill="#0E4636"/>
+    <g transform="translate(90,478)">
+      <path d="M0 0 C 5 -34 3 -66 -2 -90" stroke="#03170F" stroke-width="7" fill="none" stroke-linecap="round"/>
+      <path d="M-2 -90 C -28 -106 -50 -106 -68 -96 C -42 -100 -20 -96 0 -86 Z" fill="#03170F"/>
+      <path d="M-2 -90 C 24 -108 48 -110 68 -102 C 44 -102 22 -96 0 -86 Z" fill="#03170F"/>
+      <path d="M-2 -90 C -14 -116 -32 -128 -50 -132 C -28 -124 -10 -110 0 -88 Z" fill="#03170F"/>
+      <path d="M-2 -90 C 8 -118 24 -130 44 -136 C 24 -124 8 -110 0 -88 Z" fill="#03170F"/>
+    </g>
+    <g transform="translate(714,478) scale(-0.9,0.9)">
+      <path d="M0 0 C 5 -34 3 -66 -2 -90" stroke="#03170F" stroke-width="7" fill="none" stroke-linecap="round"/>
+      <path d="M-2 -90 C -28 -106 -50 -106 -68 -96 C -42 -100 -20 -96 0 -86 Z" fill="#03170F"/>
+      <path d="M-2 -90 C 24 -108 48 -110 68 -102 C 44 -102 22 -96 0 -86 Z" fill="#03170F"/>
+      <path d="M-2 -90 C -14 -116 -32 -128 -50 -132 C -28 -124 -10 -110 0 -88 Z" fill="#03170F"/>
+    </g>
+  </g>
+  <!-- pathway -->
+  <path d="M330 525 L400 480 L470 525 Z" fill="#0A2E22"/>
+</svg>

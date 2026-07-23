@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 525" preserveAspectRatio="xMidYMax slice">
+  <!-- REPLACE: real villa photograph -->
+  <defs>
+    <linearGradient id="dp-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#041F17"/><stop offset="0.58" stop-color="#12523F"/><stop offset="1" stop-color="#DBB84D" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="525" fill="url(#dp-sky)"/>
+  <circle cx="620" cy="270" r="86" fill="#E9D08A" opacity="0.7"/>
+  <!-- modern flat-roof villa -->
+  <g transform="translate(140,290)">
+    <rect x="0" y="40" width="220" height="150" fill="#05241A"/>
+    <rect x="220" y="90" width="180" height="100" fill="#062A1E"/>
+    <rect x="-10" y="28" width="240" height="14" fill="#0B3B2E"/>
+    <rect x="212" y="78" width="196" height="12" fill="#0E4636"/>
+    <rect x="24" y="64" width="60" height="52" rx="3" fill="#E9D08A" opacity="0.92"/>
+    <rect x="104" y="64" width="60" height="52" rx="3" fill="#DBB84D" opacity="0.8"/>
+    <rect x="178" y="126" width="34" height="64" rx="3" fill="#C9A227" opacity="0.9"/>
+    <rect x="244" y="110" width="56" height="44" rx="3" fill="#E9D08A" opacity="0.8"/>
+    <rect x="322" y="110" width="56" height="44" rx="3" fill="#DBB84D" opacity="0.65"/>
+  </g>
+  <!-- pool -->
+  <rect x="470" y="470" width="230" height="30" rx="8" fill="#14584A"/>
+  <path d="M490 484 L540 484 M570 490 L640 490" stroke="#E9D08A" stroke-width="2" opacity="0.6"/>
+  <rect x="0" y="480" width="800" height="45" fill="#03170F"/>
+  <g transform="translate(100,480)">
+    <path d="M0 0 C 6 -38 4 -76 -2 -102" stroke="#03170F" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M-2 -102 C -32 -120 -58 -120 -78 -110 C -48 -114 -24 -110 0 -98 Z" fill="#03170F"/>
+    <path d="M-2 -102 C 28 -122 56 -124 78 -116 C 50 -116 24 -110 0 -98 Z" fill="#03170F"/>
+    <path d="M-2 -102 C -18 -132 -38 -146 -58 -150 C -34 -142 -14 -126 0 -100 Z" fill="#03170F"/>
+    <path d="M-2 -102 C 10 -134 28 -148 50 -154 C 28 -142 10 -126 0 -100 Z" fill="#03170F"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Portrait placeholder for CEO Mustapha Njie">
+  <!-- REPLACE with the CEO's official portrait photo -->
+  <defs>
+    <linearGradient id="ceo-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14584A"/>
+      <stop offset="1" stop-color="#072A21"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="58" fill="url(#ceo-bg)"/>
+  <circle cx="60" cy="60" r="58" fill="none" stroke="#C9A227" stroke-width="3"/>
+  <text x="60" y="74" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="700" fill="#E9D08A" letter-spacing="2">MN</text>
+</svg>

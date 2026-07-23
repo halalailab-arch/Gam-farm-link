@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 470" role="img" aria-label="Stylized map of Africa marking TAF's eight countries of operation">
+  <defs>
+    <linearGradient id="af-fill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E4636"/>
+      <stop offset="1" stop-color="#062A1E"/>
+    </linearGradient>
+  </defs>
+  <!-- stylized Africa silhouette -->
+  <path d="M148 22
+           C 170 12 198 10 222 16 C 244 22 262 20 282 28 C 300 36 306 52 300 68
+           C 296 80 300 92 312 100 C 330 112 344 128 350 148 C 356 168 350 184 356 202
+           C 362 220 376 232 378 252 C 380 270 368 282 352 288 C 338 294 330 306 326 322
+           C 322 340 314 358 300 372 C 286 386 278 402 272 420 C 266 438 252 452 232 456
+           C 214 460 200 450 192 434 C 184 418 172 406 162 390 C 150 372 146 352 138 334
+           C 130 316 116 302 108 284 C 100 266 102 248 96 230 C 90 212 76 200 70 182
+           C 64 164 68 146 78 132 C 88 118 90 102 86 86 C 82 68 92 52 110 42
+           C 122 34 134 28 148 22 Z"
+        fill="url(#af-fill)" stroke="#C9A227" stroke-opacity="0.35" stroke-width="2"/>
+  <!-- Madagascar -->
+  <path d="M382 320 C 390 312 398 316 398 328 C 398 344 392 362 384 372 C 376 380 368 374 370 362 C 372 348 376 332 382 320 Z"
+        fill="url(#af-fill)" stroke="#C9A227" stroke-opacity="0.25" stroke-width="1.5"/>
+  <!-- markers: 8 countries -->
+  <g>
+    <g transform="translate(72,190)"><circle r="11" fill="#C9A227" opacity="0.22"/><circle r="5" fill="#DBB84D"/></g>   <!-- The Gambia -->
+    <g transform="translate(80,175)"><circle r="9" fill="#C9A227" opacity="0.18"/><circle r="4" fill="#C9A227"/></g>    <!-- Senegal -->
+    <g transform="translate(122,238)"><circle r="9" fill="#C9A227" opacity="0.18"/><circle r="4" fill="#C9A227"/></g>   <!-- Côte d'Ivoire -->
+    <g transform="translate(152,232)"><circle r="9" fill="#C9A227" opacity="0.18"/><circle r="4" fill="#C9A227"/></g>   <!-- Togo -->
+    <g transform="translate(184,228)"><circle r="11" fill="#C9A227" opacity="0.22"/><circle r="5" fill="#DBB84D"/></g>  <!-- Nigeria -->
+    <g transform="translate(210,258)"><circle r="9" fill="#C9A227" opacity="0.18"/><circle r="4" fill="#C9A227"/></g>   <!-- Cameroon -->
+    <g transform="translate(288,296)"><circle r="9" fill="#C9A227" opacity="0.18"/><circle r="4" fill="#C9A227"/></g>   <!-- Rwanda -->
+    <g transform="translate(316,362)"><circle r="9" fill="#C9A227" opacity="0.18"/><circle r="4" fill="#C9A227"/></g>   <!-- Mozambique -->
+  </g>
+</svg>
