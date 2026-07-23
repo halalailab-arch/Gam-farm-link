@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="chev" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M0 54 L36 18 L72 54" fill="none" stroke="#C9A227" stroke-opacity="0.10" stroke-width="1.6"/>
+      <path d="M0 90 L36 54 L72 90" fill="none" stroke="#E9D08A" stroke-opacity="0.05" stroke-width="1.6"/>
+      <circle cx="36" cy="10" r="1.4" fill="#C9A227" fill-opacity="0.14"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.82" cy="0.2" r="0.9">
+      <stop offset="0" stop-color="#186A54" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#041F17" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="640" fill="url(#glow)"/>
+  <rect width="1200" height="640" fill="url(#chev)"/>
+</svg>

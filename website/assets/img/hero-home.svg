@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+  <!-- REPLACE: swap for a real hero photograph of a TAF development when available -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#041F17"/>
+      <stop offset="0.52" stop-color="#0A392C"/>
+      <stop offset="0.78" stop-color="#155844"/>
+      <stop offset="1" stop-color="#3E6B4A"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F2DC9B"/>
+      <stop offset="0.55" stop-color="#DBB84D"/>
+      <stop offset="1" stop-color="#C9A227" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="horizon-glow" cx="0.72" cy="0.68" r="0.55">
+      <stop offset="0" stop-color="#DBB84D" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#DBB84D" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#052519"/>
+      <stop offset="1" stop-color="#03170F"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g fill="#F8F5EE">
+    <circle cx="140" cy="110" r="1.6" opacity="0.5"/><circle cx="320" cy="70" r="1.2" opacity="0.35"/>
+    <circle cx="520" cy="150" r="1.5" opacity="0.45"/><circle cx="720" cy="60" r="1.2" opacity="0.3"/>
+    <circle cx="905" cy="130" r="1.7" opacity="0.5"/><circle cx="1180" cy="80" r="1.3" opacity="0.4"/>
+    <circle cx="1380" cy="150" r="1.6" opacity="0.45"/><circle cx="1490" cy="60" r="1.2" opacity="0.3"/>
+    <circle cx="240" cy="220" r="1.2" opacity="0.3"/><circle cx="1060" cy="200" r="1.3" opacity="0.35"/>
+  </g>
+
+  <rect width="1600" height="900" fill="url(#horizon-glow)"/>
+  <circle cx="1150" cy="600" r="130" fill="url(#sun)"/>
+
+  <!-- far skyline -->
+  <g fill="#0A3226">
+    <rect x="0" y="590" width="90" height="120"/>
+    <rect x="100" y="555" width="60" height="155"/>
+    <rect x="170" y="600" width="80" height="110"/>
+    <rect x="300" y="565" width="55" height="145"/>
+    <rect x="365" y="600" width="90" height="110"/>
+    <rect x="480" y="545" width="60" height="165"/>
+    <rect x="560" y="585" width="75" height="125"/>
+    <rect x="700" y="560" width="58" height="150"/>
+    <rect x="775" y="598" width="85" height="112"/>
+    <rect x="1250" y="575" width="65" height="135"/>
+    <rect x="1330" y="600" width="85" height="110"/>
+    <rect x="1440" y="560" width="60" height="150"/>
+    <rect x="1510" y="595" width="90" height="115"/>
+  </g>
+
+  <!-- mid layer: modern estate homes -->
+  <g>
+    <!-- home 1 -->
+    <g transform="translate(120,640)">
+      <rect x="0" y="30" width="150" height="90" fill="#062A1E"/>
+      <path d="M-10 34 L75 -14 L160 34 Z" fill="#083527"/>
+      <rect x="18" y="52" width="26" height="22" rx="2" fill="#E9D08A" opacity="0.92"/>
+      <rect x="62" y="52" width="26" height="22" rx="2" fill="#DBB84D" opacity="0.85"/>
+      <rect x="106" y="52" width="26" height="42" rx="2" fill="#C9A227" opacity="0.8"/>
+    </g>
+    <!-- home 2 (two-storey) -->
+    <g transform="translate(430,600)">
+      <rect x="0" y="0" width="120" height="160" fill="#05241A"/>
+      <rect x="120" y="60" width="95" height="100" fill="#062A1E"/>
+      <rect x="16" y="18" width="24" height="30" rx="2" fill="#E9D08A" opacity="0.9"/>
+      <rect x="56" y="18" width="24" height="30" rx="2" fill="#DBB84D" opacity="0.75"/>
+      <rect x="16" y="76" width="24" height="30" rx="2" fill="#C9A227" opacity="0.85"/>
+      <rect x="56" y="76" width="24" height="30" rx="2" fill="#E9D08A" opacity="0.6"/>
+      <rect x="136" y="82" width="22" height="26" rx="2" fill="#DBB84D" opacity="0.85"/>
+      <rect x="172" y="82" width="22" height="26" rx="2" fill="#E9D08A" opacity="0.7"/>
+      <rect x="0" y="-8" width="120" height="10" fill="#0B3B2E"/>
+    </g>
+    <!-- tower -->
+    <g transform="translate(880,470)">
+      <rect x="0" y="0" width="130" height="290" fill="#05241A"/>
+      <rect x="0" y="-10" width="130" height="12" fill="#0B3B2E"/>
+      <g opacity="0.9">
+        <rect x="14" y="18" width="20" height="16" fill="#E9D08A"/><rect x="55" y="18" width="20" height="16" fill="#DBB84D" opacity="0.6"/><rect x="96" y="18" width="20" height="16" fill="#C9A227"/>
+        <rect x="14" y="52" width="20" height="16" fill="#DBB84D" opacity="0.7"/><rect x="55" y="52" width="20" height="16" fill="#E9D08A"/><rect x="96" y="52" width="20" height="16" fill="#DBB84D" opacity="0.5"/>
+        <rect x="14" y="86" width="20" height="16" fill="#C9A227"/><rect x="55" y="86" width="20" height="16" fill="#DBB84D" opacity="0.6"/><rect x="96" y="86" width="20" height="16" fill="#E9D08A"/>
+        <rect x="14" y="120" width="20" height="16" fill="#E9D08A" opacity="0.7"/><rect x="55" y="120" width="20" height="16" fill="#C9A227"/><rect x="96" y="120" width="20" height="16" fill="#DBB84D" opacity="0.6"/>
+        <rect x="14" y="154" width="20" height="16" fill="#DBB84D"/><rect x="55" y="154" width="20" height="16" fill="#E9D08A" opacity="0.5"/><rect x="96" y="154" width="20" height="16" fill="#C9A227" opacity="0.8"/>
+        <rect x="14" y="188" width="20" height="16" fill="#E9D08A" opacity="0.85"/><rect x="55" y="188" width="20" height="16" fill="#DBB84D"/><rect x="96" y="188" width="20" height="16" fill="#E9D08A" opacity="0.6"/>
+      </g>
+    </g>
+    <!-- home 3 -->
+    <g transform="translate(1240,635)">
+      <rect x="0" y="25" width="170" height="100" fill="#062A1E"/>
+      <path d="M-12 28 L85 -20 L182 28 Z" fill="#083527"/>
+      <rect x="22" y="48" width="28" height="24" rx="2" fill="#DBB84D" opacity="0.9"/>
+      <rect x="71" y="48" width="28" height="46" rx="2" fill="#E9D08A" opacity="0.85"/>
+      <rect x="120" y="48" width="28" height="24" rx="2" fill="#C9A227" opacity="0.8"/>
+    </g>
+  </g>
+
+  <!-- ground -->
+  <rect x="0" y="758" width="1600" height="142" fill="url(#ground)"/>
+
+  <!-- palms -->
+  <g stroke="#03170F" fill="#03170F">
+    <g transform="translate(330,758)">
+      <path d="M0 0 C 6 -40 4 -80 -2 -108" stroke-width="9" fill="none" stroke-linecap="round"/>
+      <path d="M-2 -108 C -34 -128 -62 -128 -84 -116 C -52 -122 -26 -116 -2 -104 Z"/>
+      <path d="M-2 -108 C 28 -130 58 -132 82 -122 C 52 -124 24 -116 0 -104 Z"/>
+      <path d="M-2 -108 C -20 -140 -42 -156 -64 -160 C -38 -152 -16 -134 0 -106 Z"/>
+      <path d="M-2 -108 C 12 -142 32 -158 56 -164 C 32 -152 12 -134 0 -106 Z"/>
+      <path d="M-2 -108 C -4 -142 -8 -160 -14 -172 C -6 -156 0 -134 2 -108 Z"/>
+    </g>
+    <g transform="translate(1495,758) scale(0.8,-0.8) scale(1,-1)">
+      <path d="M0 0 C -6 -42 -4 -84 2 -112" stroke-width="9" fill="none" stroke-linecap="round"/>
+      <path d="M2 -112 C -30 -132 -58 -132 -80 -120 C -48 -126 -22 -120 2 -108 Z"/>
+      <path d="M2 -112 C 32 -134 62 -136 86 -126 C 56 -128 28 -120 4 -108 Z"/>
+      <path d="M2 -112 C -16 -144 -38 -160 -60 -164 C -34 -156 -12 -138 4 -110 Z"/>
+      <path d="M2 -112 C 16 -146 36 -162 60 -168 C 36 -156 16 -138 4 -110 Z"/>
+    </g>
+  </g>
+
+  <!-- street lights (nod to solar street lighting in TAF estates) -->
+  <g stroke="#0E4636" stroke-width="5" stroke-linecap="round">
+    <path d="M700 758 L700 668 L724 668" fill="none"/>
+    <path d="M1120 758 L1120 662 L1096 662" fill="none"/>
+  </g>
+  <circle cx="730" cy="668" r="7" fill="#F2DC9B"/>
+  <circle cx="1090" cy="662" r="7" fill="#F2DC9B"/>
+  <circle cx="730" cy="668" r="16" fill="#F2DC9B" opacity="0.22"/>
+  <circle cx="1090" cy="662" r="16" fill="#F2DC9B" opacity="0.22"/>
+</svg>

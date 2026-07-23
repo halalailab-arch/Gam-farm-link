@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="TAF Africa Global monogram">
+  <!-- REPLACE with the official TAF Africa Global logo file when available -->
+  <defs>
+    <linearGradient id="lg-tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#11503F"/>
+      <stop offset="1" stop-color="#072A21"/>
+    </linearGradient>
+    <linearGradient id="lg-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E3C567"/>
+      <stop offset="1" stop-color="#C9A227"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="92" height="92" rx="22" fill="url(#lg-tile)"/>
+  <rect x="2" y="2" width="92" height="92" rx="22" fill="none" stroke="url(#lg-gold)" stroke-width="2.5"/>
+  <!-- roof gable -->
+  <path d="M22 46 L48 24 L74 46" fill="none" stroke="url(#lg-gold)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- rising skyline bars -->
+  <rect x="30" y="56" width="9" height="18" rx="2" fill="#E9D08A"/>
+  <rect x="43.5" y="48" width="9" height="26" rx="2" fill="url(#lg-gold)"/>
+  <rect x="57" y="40" width="9" height="34" rx="2" fill="#C9A227"/>
+</svg>
